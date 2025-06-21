@@ -22,7 +22,7 @@ public class HomeController {
 	{
 		String msg=hs.addperson(p);
 
-		System.out.println("person");
+		System.out.println("person p");
 		return msg;	
 	}
 	
