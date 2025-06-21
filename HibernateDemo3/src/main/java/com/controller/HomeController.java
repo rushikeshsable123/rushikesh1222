@@ -21,6 +21,8 @@ public class HomeController {
 	public String m1(@RequestBody Person p)
 	{
 		String msg=hs.addperson(p);
+
+		System.out.println("person");
 		return msg;	
 	}
 	
