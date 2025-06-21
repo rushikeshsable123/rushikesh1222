@@ -22,7 +22,7 @@ public class HomeController {
 	{
 		String msg=hs.addperson(p);
 
-		System.out.println("person m1");
+		System.out.println("post maping person url");
 		return msg;	
 	}
 	
